@@ -22,7 +22,7 @@
 		<sonar.exclusions>**/*.css</sonar.exclusions>
 	</properties>
 
-    ///////
+    
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
