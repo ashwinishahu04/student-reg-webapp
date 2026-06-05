@@ -23,6 +23,10 @@
 	</properties>
 
     
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6bd84314e149b42b4a35bb85b7cf09f1be7daf5a
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
