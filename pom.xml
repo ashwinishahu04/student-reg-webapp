@@ -12,8 +12,7 @@
 		<java.version>11</java.version>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
-		<sonar.host.url>http://172.31.26.103:9000/</sonar.host.url>
-		<sonar.token>sqa_43f69045866e3eff5388320ae551fdec85395aa7</sonar.token>
+		<sonar.host.url>http://172.31.6.94:9000/</sonar.host.url>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
 		<sonar.sources>src/main/java</sonar.sources>
@@ -22,11 +21,17 @@
 		<sonar.exclusions>**/*.css</sonar.exclusions>
 	</properties>
 
-    
-<<<<<<< HEAD
-=======
+    <distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<url>http://172.31.4.126:8081/repository/student-reg-webapp/</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<url>http://172.31.4.126:8081/repository/student-reg-webapp-snapshot/</url>
+		</snapshotRepository>
+    </distributionManagement>
 
->>>>>>> 6bd84314e149b42b4a35bb85b7cf09f1be7daf5a
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
